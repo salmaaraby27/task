@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+li{
+    float: right;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.navbar ul li a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 25px 16px;
+
+}
+.logo{
+    width: 5%;
+    float: left;
+}
+
+.search{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+}
+.clear{
+    clear: both;
+}
+
+.photo{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 100%;
+}
+.card1{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    background-image: url("photo-1508921912186-1d1a45ebb3c1.jpg");
+    background-size: cover;
+    height: 400px;
+    float: left;
+    margin: 20px;
+}
+.card2{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    background-image: url("photo-portrait_apprendre-la-photo_laurent-breillat-6.jpg");
+    background-size: cover;
+    height: 400px;
+    float: left;
+    margin: 20px;
+}
+.card3{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    background-image: url("photo-1534528741775-53994a69daeb.jpg");
+    background-size: cover;
+    height: 400px;
+    float: left;
+    margin: 20px;
+}
+.card4{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    background-image: url("images.jpg");
+    background-size: cover;
+    height: 400px;
+    float: left;
+    margin: 20px;
+}
+.clear{
+    clear: both;
+}
+.cards{
+    margin: 20px;
+    padding: 10px;
+}
+.pic{
+    width: 5%;
+}
+input[placeholder="Write what you think...."]{
+   height: 30px;
+    width: 80%;
+    float: right ;
+    margin-right: 170px;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+.clear{
+    clear: both;
+}
+.replay{
+    background-color: gray;
+    width: 90%;
+   margin-left: 50px;
+   border-radius: 10px;
+}
